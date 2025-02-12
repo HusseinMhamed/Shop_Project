@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ShopStyle.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <div>
+             <!-- <img src="images/translatio-magic-helf.jpeg" alt=""> -->
+            <a class="navbar-brand" href="#">Shop</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="width: 10%;" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="width: 80%; height: 80%;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active user" aria-current="page" id="userinfo" href="#">user</a>
+              </li>
+              <li class="nav-item dropdown">
+                <div class="relative">
+                <a class="nav-link active user" aria-current="page" id="ShoppingCart"><i class="fas fa-shopping-cart"></i></a>
+                <span id="CartCount">12 </span>
+                <div class="cards_products">
+                  <div class="text-info"></div>
+                  <a href="card.html">view All products</a>
+              </div>
+              </div>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" style="height: 2.7em;margin-top: 13px;" placeholder="Search" id="search" aria-label="Search">
+              <button class="btn btn-outline-primary  me-2" type="submit" id="searchbtn" >Search</button>
+              <button class="btn btn-outline-primary  me-2" type="submit" id="reset" >reset</button>
+              <button type="button" class="btn btn-outline-primary me-2" id="gologin">login</button>
+              <button type="button" class="btn btn-outline-primary me-2" id="gologout">logout</button>
+              <button type="button" class="btn btn-outline-primary"  id="goregister">Register</button>
+            
+ 
+            </form>
+          </div>
+        </div>
+      </nav>
+     
+      <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+      <!-- Second Section -->
+      <!-- <div style="width: 100%; height: 10px; background-color: black;"> -->
+      <div class="container-fluid row s justify-content-evenly flex-wrap" id="container" >
+
+        <!-- <div class="card col-4" >
+          <img src="images/Logitech_g432.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div> -->
+
+        
+      </div> <!-- End of container -->
+    <!-- </div> -->
+  
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/all.min.js"></script>
+      <script src="js/ShopScript.js"></script>
+</body>
+</html>
