@@ -245,12 +245,12 @@ function reduce(item){
             if(addednewItem[key].quantity > 1){
                 addednewItem[key].quantity--;
             } else {
-                delete addednewItem[key]; // If quantity is 1 or less, remove the item from the cart
+                delete addednewItem[key]; 
             }
             localStorage.setItem(storeduser + "_cart", JSON.stringify(addednewItem));
-            card(); // Update the UI
+            card(); 
             drow();
-            break; // Exit the loop since the item was found and updated
+            break; 
 
         }
     }
@@ -262,8 +262,8 @@ function add(item){
         if(key === item){
             addednewItem[key].quantity++;
             localStorage.setItem(storeduser + "_cart", JSON.stringify(addednewItem));
-            card(); // Update the UI
-            break; // Exit the loop since the item was found and updated
+            card(); 
+            break; 
         }
     }
 }
